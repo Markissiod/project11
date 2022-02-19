@@ -1,0 +1,199 @@
+/* Сперва общие правила */
+
+* {
+    box-sizing: border-box
+}
+
+/* Потом селекторы по тегам */
+
+html {
+
+}
+
+main {
+    width: 300px;
+    margin: 0px auto;
+}
+
+p {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+
+}
+
+a {
+
+}
+
+/* Колонки */
+
+.row {
+    column-count: 2;
+    column-gap: 50px;
+    width: 200px
+}
+.col {
+
+
+}
+
+
+/* Потом селекторы по классам */
+
+.text-input {
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 80px;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.button {
+  padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 0px;
+   Snell Roundhand, cursive;
+   background-color: #0a52bfc6;
+   border-radius: 5px;
+   display: inline;
+   font-size: 15px;
+   padding-left: 20px;
+   padding-right: 20px;
+   color: white;
+}
+
+/* Потом специальные правила по страничкам */
+
+/* Login*/
+
+.input-login {
+  padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    Snell Roundhand, cursive;
+    background-color: white;
+    border-radius: 5px;
+    display: inline;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 70px;
+}
+
+
+/* Страничка жанров и тегов */
+
+.genre-first {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    font-family: Arial;
+    background-color: #E1F5EA;
+    border-radius: 5px;
+    display: inline;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 200px;
+
+}
+
+.genre-second {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 0px;
+   font-family: Arial;
+   background-color: #CBEDFF;
+   border-radius: 5px;
+   display: inline;
+   font-size: 20px;
+   padding-left: 10px;
+   padding-right: 120px;
+}
+
+.genre-third {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    font-family: Arial;
+    background-color: #fff0f5;
+    border-radius: 5px;
+    display: inline;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 60px;
+}
+
+.genre-fourth {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    background-color: #bdbdf2;
+    border-radius: 5px;
+    display: inline;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 30px;
+
+
+
+}
+
+.tag {
+
+}
+
+/* Страничка популярного */
+
+.cover {
+
+}
+
+/* Страничка подписки  */
+
+.box-green {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 30px;
+    font-family: Arial;
+    background-color: #E1F5EA;
+    border-radius: 6px;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+.box-purple {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 30px;
+    font-family: Arial;
+    background-color: #DBB1CD;
+    border-radius: 6px;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 30px;
+    color: black;
+
+}
+
+.text-large {
+
+}
+
+.button-link {
+   margin: 10px;
+   margin-left:0px;
+   position: relative;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   DejaVu Sans Mono, monospace;
+   background-color: #5B5EA6;
+   border-radius: 5px;
+   padding-left: 20px;
+   padding-right: 20px;
+   color: white;
+   text-decoration: none;
+   float: left;
+}
